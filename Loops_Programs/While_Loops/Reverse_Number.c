@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main () {
     int n;
-    printf("Enter a number to sum it's digits: ");
+    printf("Enter a number to reverse it's digits: ");
     scanf("%d",&n);
     int r = 0;
     int ld = 0;
