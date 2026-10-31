@@ -30,10 +30,10 @@ int main() {
 
     for (int i=0; i<3;i++) {
         printf("%s\n",arr[i].name);
-         printf("%d\n",arr[i].attack);
-         printf("%d\n",arr[i].hp);
-         printf("%d\n",arr[i].speed);
-         printf("%c\n",arr[i].tier);
+         printf("Attack = %d\n",arr[i].attack);
+         printf("HP = %d\n",arr[i].hp);
+         printf("Speed = %d\n",arr[i].speed);
+         printf("Tier = %c\n",arr[i].tier);
     }
     return 0;
 }
