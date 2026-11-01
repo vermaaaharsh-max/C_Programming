@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+ typedef struct pokemon{
+        char name[150];
+        int hp;
+        int attack;
+        int speed;
+        char tier;
+        } pokemon;
+int main () {
+    pokemon pikachu;
+    pokemon* x = &pikachu;
+    (*x).hp = 70; // or x->hp =70;
+    
+    
+    printf("%d",pikachu.hp);
+    return 0;
+}
